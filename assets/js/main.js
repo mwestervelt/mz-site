@@ -3,7 +3,7 @@ $('#submitBtn').on("click", function (event) {
 	var name = $('#name').val()
 	contact = { contact: {"name": name}}
 	console.log(contact)
-	axios.post('http://localhost:3001/contacts', contact,
+	axios.post('https://rsvp-data.herokuapp.com/contacts', contact,
 	 { headers: { "Access-Control-Allow-Origin": "*" } } ) 
 	  .then(function (response) {
 		console.log(response);
