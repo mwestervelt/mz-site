@@ -11,7 +11,7 @@ $('#submitBtn').on("click", function (event) {
   })
   
 
-(function($) {
+
 
 	var	$window = $(window),
 		$body = $('body'),
@@ -149,4 +149,3 @@ $('#submitBtn').on("click", function (event) {
 
 			});
 
-})(jQuery);
